@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Nov, 2015, 12:30:53 AM
+    Author     : ultmate
+*/
+
+footer{
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+    background: #1e1f23;
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px 2px grey;
+    cursor: default;
+}
+
+#footerText {
+    color: #ced3ff;
+}

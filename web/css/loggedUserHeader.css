@@ -1,0 +1,55 @@
+/* 
+    Created on : 9 Nov, 2015, 12:16:27 AM
+    Author     : ultmate
+*/
+
+header{
+    background: #1e1f23;
+    box-shadow: 2px 2px 3px 2px #999355;
+    cursor: default;
+}
+
+#headerLogoDiv{
+    float: left;
+    margin-top: 2px;
+    margin-right: 0.2em;
+}
+
+#headerTitleDiv{
+    /*border: 1px solid blue;*/
+    margin-left: 8%;
+    font: bold 1em sans-serif;
+    text-align: left;
+    width: 50%;
+}
+
+#headerTitle{
+    color: #009f9d;
+}
+
+#logoutDiv {
+    /*border: 1px solid red;*/
+    width: 5%;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    /*float: right;*/
+}
+
+#logoutBtn {
+    opacity: 0.8;
+    padding: 3px;
+    background: #1e1f23;
+    border-radius: 2em;
+    /*border: none;*/
+    font: normal 1.2em calibri, sans-serif;
+    color: #f9961b;
+    cursor: pointer;
+    -webkit-transition: background 0.5s, border-radius 0.5s, opacity 0.5s;
+}
+
+#logoutBtn:hover {
+    background: black;
+    border-radius: 0px;
+    opacity: 1;
+}

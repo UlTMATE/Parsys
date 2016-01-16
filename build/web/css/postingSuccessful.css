@@ -1,0 +1,49 @@
+/* 
+    Created on : 9 Nov, 2015, 11:09:35 PM
+    Author     : ultmate
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header, nav, body, section, footer{
+    display: block;
+}
+
+body{
+    background-color: #fff7a5;
+    cursor: default;
+}
+
+section {
+    margin-left: 38%;
+    margin-top: 5%;
+}
+
+td {
+    /*font: normal 1.2em calibri, arial, sans-serif;*/
+    padding: 1em;
+}
+
+h2 {
+    color: #166d09;
+}
+
+input {
+    width: 100%;
+    font: normal 1.1em calibri, arial, sans-serif;
+    font-family: cursive;
+    background: black;
+    color: white;
+    border-radius: 2em;
+    cursor: pointer;
+    -webkit-transition: background 0.5s, color 0.5s, border-radius 0.5s;
+}
+
+input:hover {
+    background: goldenrod;
+    color: #1e1f23;
+    border-radius: 2px;
+}

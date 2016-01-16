@@ -1,0 +1,30 @@
+/* 
+    Created on : 9 Nov, 2015, 7:21:38 PM
+    Author     : ultmate
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header, nav, body, section, footer{
+    display: block;
+}
+
+body{
+    background-color: #fff7a5;
+    cursor: default;
+}
+
+h3 {
+    text-align: center;
+    color: #8f0000;
+    font: bold 2em calibri, tahoma, sans-serif;
+}
+
+#tryAgain {
+    text-align: center;
+    color: red;
+}

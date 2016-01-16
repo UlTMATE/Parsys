@@ -1,0 +1,45 @@
+/* 
+    Created on : 9 Nov, 2015, 1:23:37 AM
+    Author     : ultmate
+*/
+
+nav {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+    clear: both;
+}
+
+li {
+    float: left;
+    background-color: #c02f02;
+    border-radius: 0em;
+    box-shadow: 0px 2px 3px 0px black;
+    width: 50%;
+    font: normal 1.2em calibri,tahoma,sans-serif;
+    cursor: pointer;
+    -webkit-transition: border-radius 0.4s, box-shadow 0.5s, background-color 0.5s, color 0.5s;
+}
+
+li:hover {
+    border-radius: 4em;
+    box-shadow: 0px 3px 1px 3px black;
+    background-color: #ffa424;
+    color: black;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    -webkit-transition: color 0.5s;
+}
+
+a:hover {
+    color: black;
+}

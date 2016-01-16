@@ -1,0 +1,132 @@
+/* 
+    Created on : 1 Oct, 2015, 11:24:02 AM
+    Author     : ultmate
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header, body, section, footer{
+    display: block;
+}
+
+body{
+    background-color: #fff7a5;
+    cursor: default;
+}
+
+header{
+    background: #1e1f23;
+    /*border: 3px solid black;*/
+    box-shadow: 2px 2px 3px 2px #999355;
+    cursor: default;
+}
+
+#headerLogoDiv{
+    float: left;
+    margin-right: 0.2em;
+}
+
+#headerTitleDiv{
+    margin-left: 8%;
+    font: bold 1em sans-serif;
+    text-align: left;
+}
+
+#headerTitle{
+    color: #32b3c7;
+}
+
+/*
+table, td {
+        border: 1px solid grey;
+}
+*/
+
+#loginDiv {
+    background: #212727;
+    width: 330px;
+    margin-top: 7%;
+    margin-left: 38%;
+    border-radius: 1em;
+    box-shadow: 1px 1px 7px cyan;
+}
+
+table{
+    padding: 2em;
+    width: 100%;
+}
+
+#loginDivTitle {
+    position: relative;
+    top: -5px;
+    font: bold 2em arial;
+    text-align: center;
+    color: #6bc7ee;
+}
+
+.errorMsg {
+    color: red;
+    text-align: center;
+}
+
+.fieldDescription {
+    color: white;
+    visibility: hidden;
+    font: normal 0.7em arial;
+}
+
+.field {
+    text-align: center;
+    width: 99%;
+    font: normal 1.2em arial;
+    border-radius: 0.5em;
+}
+
+.linkText {
+    text-align: center;
+}
+
+a {
+    color: orange;
+    font: normal 0.8em arial;
+}
+
+.btn{
+    width: 100%;
+    padding: 3px;
+    margin-top: 5px;
+    color: #0fc0fc,#1e1f23;
+    cursor: pointer;
+    font: bold 1.3em arial;
+    background: #00ACFF;
+    border-radius: 1em 3em 1em 3em;
+    -webkit-transition: background 0.5s, color 0.3s, border-radius 0.5s; 
+    -moz-transition: background 0.5s, color 0.3s, border-radius 0.5s;
+    -o-transition: background 0.5s, color 0.3s, border-radius 0.5s;
+}
+
+.btn:hover {
+    background: orange;
+    color: black;
+    border-radius: 3em 1em 3em 1em;
+}
+
+footer{
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+    background: #1e1f23;
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px 2px grey;
+    cursor: default;
+}
+
+#footerText {
+    color: #ced3ff;
+}

@@ -1,0 +1,76 @@
+/* 
+    Created on : 9 Nov, 2015, 1:12:08 AM
+    Author     : ultmate
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header, nav, body, section, footer{
+    display: block;
+}
+
+body{
+    background-color: #fff7a5;
+    cursor: default;
+}
+
+#postParcelDiv {
+    width: 28%;
+    margin-top: 5%;
+    margin-left: 35%;
+    padding: 1em;
+    box-shadow: 1px 1px 3px 1px black;
+    border-radius: 2em;
+}
+
+h3 {
+    text-align: center;
+    font: bold 1.5em calibri, arial, serif;
+    color: #c02f02;
+    padding-bottom: 0.5em;
+}
+
+.fieldDescriptor {
+    width: 40%;
+    font: normal 1.2em calibri, tahoma, sans-serif;
+    /*background: white;*/
+}
+
+.field {
+    width: 70%;
+}
+
+input[type="text"] {
+    font: normal 1.3em calibri, sans-serif;
+    border-radius: 10px;
+    background: silver;
+    width: 100%;
+}
+
+textarea {
+    background-color: silver;
+    width: 100%;
+    max-width: 100%; 
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin-top: 5px;
+    background: #009f9d;
+    color: white;
+    border-radius: 4em;
+    font: normal 1.2em calibri, arial, serif;
+    cursor: pointer;
+    -webkit-transition: border-radius 0.4s, background 0.5s, color 0.6s;
+}
+
+input[type="submit"]:hover {
+    border-radius: 2px;
+    background: greenyellow;
+    color: black;
+}

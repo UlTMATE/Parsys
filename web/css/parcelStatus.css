@@ -1,0 +1,56 @@
+/* 
+    Created on : 9 Nov, 2015, 10:46:51 AM
+    Author     : ultmate
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header, nav, body, section, footer{
+    display: block;
+}
+
+body{
+    background-color: #fff7a5;
+    cursor: default;
+}
+
+table {
+    margin-top: 2em;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+td{
+    width: 10%;
+}
+
+th {
+    background: black;
+    color: white;
+}
+
+tr:nth-child(2n){
+    background-color: #d3fff1;
+}
+
+.recBtn {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.recBtn:hover {
+    opacity: 1;
+    background: #166d09;
+    color: white;
+}
+
+.info {
+    margin-top: 10%;
+    font: bold 3em calibri,sans-serif;
+    text-align: center;
+    color: #166d09;
+}
